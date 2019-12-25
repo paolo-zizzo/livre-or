@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+
+
+
+.livreor{
+	margin: auto;
+}
+
+
+
+
+.form{
+  background-image: url(img.jpg);
+}
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #0c0c0c;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+.erreur1{
+  padding: 2px;
+  font-size: 9px;
+color: red;
+}
+
+  
+  .menu{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	font-weight: bold;  
+	height:50px;
+	margin: auto;
+	background-size: cover;
+	margin-top: 0px;
+  }
+  
+  .a{
+  color: black;
+  }
+  .haccueil{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	text-shadow:0 0 20px rgb(13, 53, 52),2px 3px 3px #141414, 0 0 100px rgb(10, 88, 87);color:rgb(15, 233, 222);
+	  font-weight: 900;
+	  font-size: 3.5em;
+	  text-decoration: underline;
+   
+  }
+
+  .lolimg{
+	margin-left: 30%;
+  }
+
+  .bodyacc{
+	background-image: linear-gradient(to right, red , yellow); 
+}
+
+.accueil{
+	text-align: center;
+	border:2px solid;
+	font-size: 18px;
+    font-family: 'Courier Prime', monospace;
+
+
+}
+
+.formulaire1{
+	height: 200px;
+}
+
+.formulaire1 > textarea{
+height: 100px;
+border: ;
+
+}
+
+.tableau{
+	color: black;
+	font-weight: bold;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	border:solid 2px;
+	margin-top:70px ;
+	text-shadow: 1px 1px 1px black;
+	 }
+  
+  thead th, tfoot th, tfoot td {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+	border: 3px solid purple;
+  }
+}
+.pagecommentaire{
+	background-image: linear-gradient(to right, red , yellow); 
+	  }
+
+	  .titres{
+		  
+
+		color: blanchedalmond;
+		text-align: center;
+		text-decoration: underline;
+	  }
+ .tableauth{
+	 width: 200px;
+text-decoration: underline; 
+border:solid;
+}
+.tableautr{
+	width: 200px;
+text-decoration: underline; 
+	
+}
+
+.lol2{
+margin-left:37% ;
+	width: 300px;
+	height:200px;
+}
+
+	  
